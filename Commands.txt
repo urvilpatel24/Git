@@ -1,2 +1,25 @@
+git config --global user.name "username"
+git config --global user.email "email"
+git config --list
+git config user.name
+
+git init
+
+git help
+git help command
+
+pwd
+cd ~	//home directory
+ls -la	//hidden files
+clear
+
 git status
+
 git log
+git log --author="name"
+
+git add .		// tell git that i have made some changes
+git add -A
+git add name.txt
+
+git commit -m "msg"
