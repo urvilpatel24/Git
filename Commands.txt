@@ -5,6 +5,9 @@ git config user.name
 
 git init	//turn folder into got repository
 
+git remote add name url
+git remote
+
 git help
 git help command
 
