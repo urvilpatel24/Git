@@ -3,7 +3,10 @@ git config --global user.email "email"
 git config --list
 git config user.name
 
-git init
+git init	//turn folder into got repository
+
+git remote add name url
+git remote
 
 git help
 git help command
@@ -15,11 +18,27 @@ clear
 
 git status
 
+git diff	//working file and staging area va66e diff ape so add kar do ek 	  	  	   vakahat pachi na aape difference
+git diff --staged	//stage area vs repository
+
 git log
 git log --author="name"
 
-git add .		// tell git that i have made some changes
-git add -A
+git add .		// tell git that i have made some changes and add all
+git add -A		
 git add name.txt
 
 git commit -m "msg"
+git commit -am "msg"  or   -a -m	
+
+git rm name
+
+git mv oldname newname	//rename
+git mv name folder/name	//move
+
+git checkout commitNumber --filename	
+//take file from repository from old commit and making it as working copy ,here file name is not mandetory
+
+git reset HEAD filename	//remove file from staging and put into 					working copy
+
+.gitignore --> this file contain the the name of folder or files which you dont want totake care of or dont want to push it on the github
