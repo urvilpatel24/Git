@@ -3,7 +3,7 @@ git config --global user.email "email"
 git config --list
 git config user.name
 
-git init	//turn folder into got repositories
+git init	//turn folder into git repositories
 
 git remote add name url
 git remote		// view all remote repositories
