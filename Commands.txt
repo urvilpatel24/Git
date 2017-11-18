@@ -18,7 +18,7 @@ clear
 
 git status
 
-git diff	//working file and staging area va66e diff ape so add kar do ek 	  	  	   vakahat pachi na aape difference
+git diff	//working file and staging area va66e diff ape so add kar do ek vakahat pachi na aape difference
 git diff --staged	//stage area vs repository
 
 git log
@@ -41,4 +41,4 @@ git checkout commitNumber --filename
 
 git reset HEAD filename	//remove file from staging and put into 					working copy
 
-.gitignore --> this file contain the the name of folder or files which you dont want totake care of or dont want to push it on the github
+.gitignore --> this file contain the the name of folder or files which you dont want totake care of or dont want to push it on the github (Used in desktop GUI of GIT).
