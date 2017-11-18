@@ -1,3 +1,3 @@
 # Intro
 
-Commands for GIT BASH
+Commands for GIT-BASH
