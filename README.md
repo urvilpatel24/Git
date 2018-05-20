@@ -1,3 +1,3 @@
-# Intro
+# My First Repository
 
-Commands for GIT-BASH
+Conatins some Commands for GIT-BASH.
